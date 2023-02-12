@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+    display: block;
+    justify-items: center;
+    background-color: rgb(211, 219, 236);
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 10px;
+    
+    
+}
+.attribution{
+    width: 240px;
+    height: 380px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0px -120px;
+   
+    
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(49, 59, 78, 0.993);
+}
+b{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(87, 109, 124);
+}
+footer{
+    display: flex;
+    justify-content: center;
+     position: relative;
+     top: 600px;
+}
+  </style>
+  </head>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<body>
+  <div class="attribution">
+<img src="C:\Users\Mister Lover\Desktop\qr-code-component-main\images\image-qr-code.png">
+ <p> Improve your front-end skills by building projects</p>
+
+ <b> Scan the QR code to visit Frontend<br> Mentor and take your coding skills to the next level</b>
+  
+</div>
+<footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Assil45">Assil45</a>.
+  </footer>
+</body>
+</html>
